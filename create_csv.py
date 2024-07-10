@@ -8,7 +8,7 @@ data = [
     "Afghanistan,Ibrahim Zadran,231,107.44"
 ]
 
-csv_file_path = 't20_world_cup_2024(2).csv'
+csv_file_path = 't20_world_cup_2024.csv'
 
 with open(csv_file_path, 'w') as file:
     for line in data:
