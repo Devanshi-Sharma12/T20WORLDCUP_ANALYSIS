@@ -1,7 +1,7 @@
 # updated_t20_list
 This project contains a Python script to find and display player statistics from a CSV file containing data about the top 5 country players in the recent T20 World Cup.The data is collected from ICC official site.
 
-//Description
+*Description*
 The script allows users to search for a player's statistics from a CSV file. The CSV file should have the player's name and their corresponding statistics. The domains include:
 1.best bowlers 
 2.highest score individual batters
@@ -9,12 +9,12 @@ The script allows users to search for a player's statistics from a CSV file. The
 4.Most wickets
 5.Overall performace of players.
 
-//Dependencies
+*Dependencies*
 Python 3.6
 argparse (included in the Python Standard Library)
 csv (included in the Python Standard Library)
 
-//Demonstration of how my project works
+*Demonstration of how my project works*
 Suppose your script file is named playerdata.py.
 Step 1:Prepare your environment:
 Ensure you have Python installed.
