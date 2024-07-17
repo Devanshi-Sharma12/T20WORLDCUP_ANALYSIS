@@ -40,22 +40,14 @@ Suppose your script file is named `playerdata.py`.
        ```
 
 
-3. Expected Output:
-The script will output the statistics for Jasprit Bumrah:
-
+3. output: 
+    ```
     Stats for Jasprit Bumrah:
-    <html>
-    <table>
-    <tr>
-    <td>Player: Jasprit Bumrah</td> 
-    <td>Country: India </td>
-    <td>Wickets: 15</td>
-    <td>Average: 8.26</td>
-    </tr>
-    </table>
-    </html>
-
-
+    Player: Jasprit Bumrah
+    Country: India
+    Wickets: 15
+    Average: 8.26
+    ```
 ## Explanation
 1. playerdata.py: 
 
