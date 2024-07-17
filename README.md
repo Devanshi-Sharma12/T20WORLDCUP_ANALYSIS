@@ -31,13 +31,13 @@ Suppose your script file is named `playerdata.py`.
 
   - Open your terminal or command prompt, navigate to the directory containing the script and the CSV file, and run the script using the following command:
 
-       ```
-       python name_of_script.py name_of_csv_file.csv name_of_player
-       ```
+      
+       ` python name_of_script.py name_of_csv_file.csv "name_of_player" `
 
        #### Command used in code:
-
-       ` python playerdata.py most_wickets_t20_world_cup_2024.csv "Jasprit Bumrah" `
+       ```
+        python playerdata.py most_wickets_t20_world_cup_2024.csv "Jasprit Bumrah" 
+       ```
 
 
 3. Expected Output:
