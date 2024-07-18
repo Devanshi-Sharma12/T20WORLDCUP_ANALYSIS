@@ -48,6 +48,11 @@ Suppose your script file is named `playerdata.py`.
     Wickets: 15
     Average: 8.26
     ```
+
+4. Visual representation of my bar chart and pie chart
+![Bar graph and pie chart](C:/Users/DELL/OneDrive/Desktop/experiment/updated_t20_list/data_visualization_using_barchart_and_pie.png)
+
+
 ## Explanation
 1. playerdata.py: 
 
