@@ -50,8 +50,7 @@ Suppose your script file is named `playerdata.py`.
     ```
 
 4. Visual representation of my bar chart and pie chart
-![Bar graph and pie chart](C:/Users/DELL/OneDrive/Desktop/experiment/updated_t20_list/data_visualization_using_barchart_and_pie.png)
-
+![bar chart and pie chart corresponding to my most_wickets_in_t20_world_cup_2024](data_visualization_using_barchart_and_pie.png)
 
 ## Explanation
 1. playerdata.py: 
