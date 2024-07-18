@@ -16,6 +16,7 @@ The script allows users to search for a player's statistics from a CSV file. The
 1. Python 3.6
 2. argparse (included in the Python Standard Library)
 3. csv (included in the Python Standard Library)
+4. matplotlib(included in the Python Standard Library)
 
 ## Demonstration of this project works
 Suppose your script file is named `playerdata.py`.
@@ -59,3 +60,14 @@ Suppose your script file is named `playerdata.py`.
 
 2. Execution:
    Running the script in the terminal with appropriate arguments (python playerdata.py most_wickets_t20_world_cup_2024.csv "Jasprit Bumrah") demonstrates how the script retrieves and displays player statistics based on the provided CSV data.
+
+3. datavisualization.py
+   This script contains the bar chart and pie chart corresponding to the `most_wickets_t20_world_cup_2024.csv`
+
+   ```
+   plt.bar(df['Player'], df['Wickets'], color='skyblue', edgecolor='black')
+   ```
+
+   ```
+   plt.pie(df['Wickets'], labels=df['Player'], autopct='%1.1f%%', startangle=140, colors=plt.cm.Paired(range(len(df))))
+   ```
